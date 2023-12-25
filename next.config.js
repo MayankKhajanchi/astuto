@@ -1,4 +1,11 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {}
+const nextConfig = {
+  compiler: {
+    styledComponents: true,
+  },
+  experimental: {
+    reactRefresh: false,
+  },
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;
